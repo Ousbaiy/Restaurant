@@ -73,7 +73,7 @@ const Header = () => {
           className={`${nav ? "gap-y-0" : "gap-y-2"} flex flex-col items-center justify-center w-12 h-12 p-3 order-2 lg:order-none cursor-pointer border-2 rounded-full`}
           onClick={() => setNav(!nav)}>
             <motion.div initial={{rotate: 0}} 
-            animate={{rotate: nav ? -45 : 0, translateY: nav ? 1 : 0}} className='w-full h-[2px] bg-white'>
+            animate={{rotate: nav ? -45 : 0, translateY: nav ? 2 : 0}} className='w-full h-[2px] bg-white'>
             </motion.div>
             <motion.div initial={{rotate: 0}} 
             animate={{rotate: nav ? 45 : 0}} className='w-full h-[2px] bg-white'>
